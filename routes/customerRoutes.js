@@ -88,7 +88,7 @@ router.post("/login", (req, res) => {
                 }
                 return res.status(401).json({
                     status: false,
-                    message: "Wrong password, login failed",
+                    message: "Wrong pswd, login failed",
                     data: undefined
                 })
             })

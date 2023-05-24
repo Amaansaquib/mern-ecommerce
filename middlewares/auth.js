@@ -13,7 +13,7 @@ let auth = (req, res, next) => {
         if (!customerToken) {
           return res.json({
             status: false,
-            message: "Authentication failed",
+            message: "Authenticate failed",
           });
         }
         req.token = token;
