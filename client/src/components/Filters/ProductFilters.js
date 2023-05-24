@@ -79,7 +79,7 @@ function ProductFilters(props) {
           onChange={handleKeywordChange}
         />
       </Col>
-      <Col xs={24} sm={12} md={12} lg={6} xl={5} xxl={5}>
+      <Col xs={20} sm={10} md={10} lg={6} xl={5} xxl={5}>
         <Select
           placeholder="Select Category"
           style={{ width: "100%" }}
@@ -109,10 +109,10 @@ function ProductFilters(props) {
           <Col span={5}>
             <Text>Price To</Text>
           </Col>
-          <Col span={13}>
+          <Col span={8}>
             <Slider min={1} max={20} value={filters.price.$lte} onChange={handlePriceToChange}/>
           </Col>
-          <Col span={4}>
+          <Col span={1}>
             <InputNumber min={1} max={20} value={filters.price.$lte} onChange={handlePriceToChange}/>
           </Col>
         </Row>
@@ -122,7 +122,7 @@ function ProductFilters(props) {
           type="primary"
           icon={<SearchOutlined />}
           onClick={handleSearch}
-          style={{ width: "45%", marginRight: 10 }}
+          style={{ width: "65%", marginRight: 10 }}
         >
           Search
         </Button>
@@ -130,7 +130,7 @@ function ProductFilters(props) {
           type="default"
           icon={<CloseCircleOutlined />}
           onClick={handleClearSearch}
-          style={{ width: "45%" }}
+          style={{ width: "65%" }}
         >
           Clear
         </Button>

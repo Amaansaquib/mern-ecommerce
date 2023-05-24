@@ -137,7 +137,7 @@ function App() {
             </Routes>
           </div>
         </Content>
-        <Footer style={{ textAlign: "center" }}>Dev It Media @2022</Footer>
+        <Footer style={{ textAlign: "center" }}>All Rights Reserved By Food Mania @ Amaan Saquib </Footer>
       </Layout>
     </BrowserRouter>
   );
